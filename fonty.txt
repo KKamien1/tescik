@@ -1,0 +1,8 @@
+fonty: 
+
+montserratregular;
+
+'Gotham SSm A', 'Gotham SSm B', - do stopki 
+
+Brandon, HelveticaNeue, sans-serif;
+

@@ -1,0 +1,573 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mouse",
+				"mouseenter"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"projekt",
+				"projekt-box"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"bt",
+				"btn_order"
+			],
+			[
+				"text",
+				"text-shadow"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"remove",
+				"removeAttr"
+			],
+			[
+				"img",
+				"imgHeight"
+			],
+			[
+				"width",
+				"widthBox"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"border-",
+				"border-style"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"b",
+				"border-right"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"przynajmniej",
+				"przynajmniejDwie"
+			],
+			[
+				"Po",
+				"pokaz-starsze"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.htm",
+			"settings":
+			{
+				"buffer_size": 32127,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/styles.less",
+			"settings":
+			{
+				"buffer_size": 20358,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/variables.less",
+			"settings":
+			{
+				"buffer_size": 25415,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins	",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Create Binary Package File"
+			],
+			[
+				"",
+				"Code Folding: Unfold All"
+			],
+			[
+				"Snippet: ",
+				"Snippet: <?php … ?>"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 118.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/bartel/app/zamowienie.html",
+		"/C/xampp/htdocs/bartel/app/bower_components/bootstrap/less/pagination.less",
+		"/C/xampp/htdocs/domy/05937086_proj.sql",
+		"/J/Wyspa_domow/main.js",
+		"/C/xampp/htdocs/domy/index.php",
+		"/C/xampp/htdocs/domy/get_data_from_xml.php",
+		"/C/xampp/htdocs/domy/update_form.php",
+		"/C/xampp/htdocs/bartel/app/bower_components/bootstrap/less/forms.less",
+		"/J/Wyspa_domow/xpdoobject.class.php",
+		"/J/Wyspa_domow/xPDOModel/dom/mysql/projekty.map.inc.php",
+		"/J/Wyspa_domow/xPDOModel/dom/mysql/projekty.class.php",
+		"/J/Wyspa_domow/xPDOModel/dom/projekty.class.php",
+		"/C/xampp/htdocs/bartel/app/projekt.html",
+		"/J/Wyspa_domow/CMS/config.inc.php",
+		"/C/xampp/htdocs/domy/includes/config.php",
+		"/J/Wyspa_domow/firmy.class.php",
+		"/J/PROJEKTY_SKONCZONE/pulband/lifecolor/index-4.html",
+		"/C/xampp/htdocs/bartel/app/bower_components/bootstrap/less/mixins.less",
+		"/C/xampp/htdocs/bartel/app/bower_components/bootstrap/less/variables.less",
+		"/C/xampp/htdocs/bartel/app/bower_components/bootstrap/less/type.less",
+		"/J/Wyspa_domow/plugin/index.html",
+		"/J/Wyspa_domow/app/projekt.html",
+		"/C/xampp/htdocs/bartel/app/styles/hover.css",
+		"/C/xampp/htdocs/bartel/app/styles/ui.slider.extras.css",
+		"/J/Wyspa_domow/app/index.html",
+		"/C/xampp/htdocs/bartel/app/styles/jquery-ui-1.7.1.custom.css",
+		"/C/xampp/htdocs/bartel/app/bower_components/fotorama/fotorama.css",
+		"/J/Wyspa_domow/DIST_BARTEL/app/styles/main.css",
+		"/C/xampp/htdocs/bartel/app/index.html",
+		"/C/xampp/htdocs/bartel/bower.json",
+		"/C/Users/frankus/Downloads/scrollReveal.js-master/bower.json",
+		"/C/xampp/htdocs/domy/sql/domy.sql",
+		"/J/Wyspa_domow/DIST_BARTEL/app/index.html",
+		"/J/Wyspa_domow/DIST/app/index.html",
+		"/C/xampp/htdocs/bartel/app/test_index.html",
+		"/J/Wyspa_domow/DIST/app/zamowienie.html",
+		"/C/Users/frankus/Downloads/Hover-master/css/hover.css",
+		"/C/xampp/htdocs/bartel/app/styles/main.less",
+		"/C/Users/frankus/Downloads/dmitryf-elements-191754c/elements.less",
+		"/C/xampp/htdocs/bartel/app/bower_components/bootstrap/less/badges.less",
+		"/C/xampp/htdocs/bartel/app/bower_components/bootstrap/less/navs.less",
+		"/C/xampp/htdocs/bartel/app/styles/main.css",
+		"/C/xampp/htdocs/bartel/app/bower_components/bootstrap/less/list-group.less",
+		"/C/xampp/htdocs/bartel/app/bower_components/bootstrap/less/bootstrap.less",
+		"/C/xampp/htdocs/bartel/app/bower_components/bootstrap/less/variables.css",
+		"/C/xampp/htdocs/bartel/app/bower_components/bootstrap/less/glyphicons.less",
+		"/C/xampp/htdocs/bartel/app/styles/css_hover_effect/style_common.css",
+		"/C/xampp/htdocs/bartel/app/styles/css_hover_effect/style1.css",
+		"/C/Users/frankus/Downloads/index.html",
+		"/C/xampp/htdocs/bartel/app/bower_components/bootstrap/less/grid.less",
+		"/C/xampp/htdocs/bartel/app/bower_components/bootstrap/less/scaffolding.less",
+		"/C/xampp/htdocs/bartel/dist/index.html",
+		"/C/xampp/htdocs/bartel/dist/styles/65267fc1.main.css",
+		"/J/Wyspa_domow/bartel-projekt/app/scripts/main.js",
+		"/C/Users/frankus/AppData/Roaming/Sublime Text 2/Packages/User/less2css.sublime-settings",
+		"/J/PROJEKTY_SKONCZONE/MOKHA/KOPIA_02_2014/app/design/frontend/default/mokha/template/cms/default/home.phtml",
+		"/J/angular/grid/package.json",
+		"/C/xampp/htdocs/grid/app/app.js",
+		"/C/xampp/htdocs/grid/includes/config.php",
+		"/C/xampp/htdocs/grid/customers.sql",
+		"/J/angular/grid/Gruntfile.js",
+		"/J/angular/grid/Gruntfile",
+		"/C/xampp/htdocs/grid/package.json",
+		"/C/Users/frankus/AppData/Roaming/Sublime Text 2/Packages/AngularJS/AngularJS-sublime-package.sublime-settings",
+		"/I/komornik/cms/wordpress/wp-content/themes/komornik/index.php",
+		"/I/komornik/www/index.html",
+		"/I/komornik/cms/wordpress/wp-content/themes/komornik/css/style.css",
+		"/I/BOOTSTRAP/szkolenia/spis.html",
+		"/I/komornik/www/css/skeleton.css",
+		"/C/Windows/system32/http",
+		"/C/bootstrap/kontakt.php",
+		"/J/Wyspa_domow/dominanta_projekty.xml",
+		"/J/ORTOMIX/ORTOPEDIA/naszzespol.php",
+		"/J/ORTOMIX/ORTOPEDIA/konsultacje.php",
+		"/J/ORTOMIX/ORTOPEDIA/cenyuslug.php",
+		"/C/xampp/htdocs/wyspa/wp-content/themes/nouveau-master/nv/NV.php",
+		"/J/Wyspa_domow/projekty_online_z_logo.xml",
+		"/C/bootstrap/mapka.php",
+		"/I/ORTOMIX/ORTOPEDIA/kontakt.php",
+		"/I/ALDENT/aldent.css",
+		"/I/ORTOMIX/ORTOPEDIA/ortomix.css",
+		"/C/xampp/htdocs/wyspa/wp-content/themes/nouveau-master/assets/css/app.css",
+		"/J/Wyspa_domow/szablon/Momtaz-Framework-master/sample/style.less",
+		"/J/Wyspa_domow/szablon/Momtaz-Framework-master/sample/style.css",
+		"/J/Wyspa_domow/szablon/Momtaz-Framework-master/sample/functions.php",
+		"/C/bootstrap/top_kontakt.php",
+		"/I/ALDENT/rozliczenie.txt",
+		"/I/komornik/cms/wordpress/wp-content/themes/komornik/category.php",
+		"/I/sady/www/config.inc.php",
+		"/I/sady/www/settings.inc.php",
+		"/I/komornik/cms/wordpress/wp-content/themes/komornik/style.css",
+		"/I/komornik/cms/wordpress/wp-content/themes/twentytwelve/header.php",
+		"/I/komornik/cms/wordpress/wp-content/themes/komornik/box-adres",
+		"/I/BARTAL/www/css/style.css",
+		"/I/BARTAL/www/css/skeleton.css",
+		"/I/BARTAL/www/kontakt.html",
+		"/I/BARTAL/www/js/script.js",
+		"/I/BARTAL/www/css/slajdy.css",
+		"/I/BARTAL/www/oferta.html",
+		"/C/xampp/htdocs/pulband/header.php",
+		"/C/xampp/htdocs/pulband/head.php",
+		"/I/BARTAL/www/index.html",
+		"/C/xampp/htdocs/pulband/index.php",
+		"/C/xampp/htdocs/pulband/koncert.php",
+		"/C/xampp/htdocs/pulband/multimedia.php",
+		"/C/xampp/htdocs/pulband/studio.php",
+		"/C/xampp/htdocs/pulband/wesele.php",
+		"/C/xampp/htdocs/pulband/artysci.php",
+		"/C/xampp/htdocs/pulband/event.php",
+		"/I/komornik/index.html",
+		"/C/xampp/htdocs/pulband/css/style.css",
+		"/C/Users/frankus/Downloads/test/index.html",
+		"/I/sady/www/css/style.css",
+		"/I/sady/www/js/script.js",
+		"/I/sady/www/realizacje.html",
+		"/I/sady/www/projekty.html",
+		"/I/sady/www/abstrakcje.html",
+		"/I/sady/www/painting.html",
+		"/I/sady/www/poster.html",
+		"/I/sady/www/figuratywne.html",
+		"/I/BARTAL/www/css/superfish.css",
+		"/I/sady/www/js/kwiks.js",
+		"/I/sady/www/lightbox/index.html",
+		"/C/xampp/htdocs/pulband/4boxy.php",
+		"/C/xampp/htdocs/pulband/footer.php",
+		"/C/xampp/htdocs/pulband/galeria-karuzela.php",
+		"/C/xampp/htdocs/pulband/info-kontakt.php",
+		"/I/pulband/BACKUP/index.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"kod_firmy",
+			"ele",
+			"piwnica",
+			"rzut3",
+			"205",
+			"<RodzajDachu>",
+			"state-danger",
+			"hidden-xs",
+			"execution",
+			"utf",
+			"data-sr",
+			"data-sr='wait 0.7s then scale up 30%'",
+			"join_sq",
+			"col-sm-4",
+			"col-xs-4 col-sm-2",
+			"col-sm-9",
+			"col-xs-4 col-sm-3",
+			"wooble",
+			"border",
+			"form-co",
+			"tab-",
+			"text-sho",
+			"sadow",
+			"button",
+			"shadow",
+			".box-shadow",
+			"div",
+			"@gutter",
+			"@border",
+			"border ",
+			"border",
+			"icon",
+			"icon-font-name",
+			"halflings",
+			"server",
+			"option",
+			"hover",
+			"active",
+			"@component-active-bg",
+			"nav-pills",
+			"@link-colo",
+			"row",
+			"less",
+			"h3",
+			"img-respon",
+			"&quot;",
+			"page",
+			"nav",
+			"wp_nav",
+			"class=\"fota\"",
+			"data-lightbox=\"galeria\" class=\"fota\"",
+			"nav",
+			"hr",
+			"	\n",
+			"wp_head",
+			"home",
+			"_nav",
+			".align",
+			"align-center",
+			"old-price",
+			"regular",
+			"old",
+			"btn-remove",
+			"btn-remove btn-remove2",
+			"dodaj",
+			"#qty",
+			"validatio",
+			"shipping:same_as_billing",
+			"focus",
+			"reload",
+			"full-product-price",
+			"qty",
+			"em",
+			"<sup>*</sup>",
+			"em",
+			"focus",
+			"html",
+			"price-as-configured",
+			"price-as",
+			"price-as-configured",
+			"width",
+			"%;\n",
+			"hover"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" ",
+			"col-sm-8",
+			"col-xs-4 col-sm-4",
+			"col-sm-8",
+			"col-xs-4 col-sm-4",
+			"\"",
+			"data-lightbox=\"galeria\" class=\"fota\"",
+			"sup"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.htm",
+					"settings":
+					{
+						"buffer_size": 32127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/styles.less",
+					"settings":
+					{
+						"buffer_size": 20358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/variables.less",
+					"settings":
+					{
+						"buffer_size": 25415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 462.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 306.0,
+	"status_bar_visible": true
+}

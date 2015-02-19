@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Krzysztof Kamieniecki - Webdeveloper</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- CSS
+================================================== -->
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Allan&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=RobotoDraft:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=pl' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap-responsive.css">
+<link rel="stylesheet" href="css/prettyPhoto.css" />
+<link rel="stylesheet" href="css/flexslider.css" />
+<link rel="stylesheet" href="css/custom-styles.css">
+<link rel="stylesheet" href="css/styles.css">
+
+<link rel="stylesheet" href="css/kik.css">
+
+
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="css/style-ie.css"/>
+<![endif]--> 
+
+<!-- Favicons
+================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- JS
+================================================== -->
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/jquery.custom.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+
+    $("#btn-blog-next").click(function () {
+      $('#blogCarousel').carousel('next')
+    });
+     $("#btn-blog-prev").click(function () {
+      $('#blogCarousel').carousel('prev')
+    });
+
+     $("#btn-client-next").click(function () {
+      $('#clientCarousel').carousel('next')
+    });
+     $("#btn-client-prev").click(function () {
+      $('#clientCarousel').carousel('prev')
+    });
+    
+});
+
+ $(window).load(function(){
+
+    $('.flexslider').flexslider({
+        animation: "slide",
+        slideshow: true,
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+    });  
+});
+
+</script>
+
+</head>
+
+<body class="home">
+
+    
+    <div class="container">
+    
+      <div class="row header"><!-- Begin Header -->
+      
+        <!-- Logo
+        ================================================== -->
+        <div class="span7 topbox">
+        	<h2><a href="index.htm"><h2>Krzysztof Kamieniecki </a><small>- webdeveloper</small></h2> 
+            
+            <h1>tworzenie i rozwój stron internetowych</h1>
+        </div>
+        
+        <!-- Main Navigation
+        ================================================== -->
+        <div class="span5 navigation">
+            <div class="navbar hidden-phone">
+            
+            <ul class="nav">
+                <li class="active"><a href="index.htm">Home</a></li>
+                <li><a href="oferta.htm">Oferta</a></li>
+                <li><a href="features.htm">Szkolenia</a></li>
+                <li><a href="wycena-www.htm">Wycena</a></li>
+                <li><a href="page-contact.htm">Kontakt</a></li>
+            </ul>
+           
+            </div>
+
+            <!-- Mobile Nav
+            ================================================== -->
+            <form action="#" id="mobile-nav" class="visible-phone">
+                <div class="mobile-nav-select">
+                <select onchange="window.open(this.options[this.selectedIndex].value,'_top')">
+                    <option value="">Navigate...</option>
+                    <option value="index.htm">Home</option>
+                        <option value="index.htm">- Full Page</option>
+                        <option value="index-gallery.htm">- Gallery Only</option>
+                        <option value="index-slider.htm">- Slider Only</option>
+                    <option value="features.htm">Features</option>
+                    <option value="page-full-width.htm">Pages</option>
+                        <option value="page-full-width.htm">- Full Width</option>
+                        <option value="page-right-sidebar.htm">- Right Sidebar</option>
+                        <option value="page-left-sidebar.htm">- Left Sidebar</option>
+                        <option value="page-double-sidebar.htm">- Double Sidebar</option>
+                    <option value="gallery-4col.htm">Gallery</option>
+                        <option value="gallery-3col.htm">- 3 Column</option>
+                        <option value="gallery-4col.htm">- 4 Column</option>
+                        <option value="gallery-6col.htm">- 6 Column</option>
+                        <option value="gallery-4col-circle.htm">- Gallery 4 Col Round</option>
+                        <option value="gallery-single.htm">- Gallery Single</option>
+                    <option value="blog-style1.htm">Blog</option>
+                        <option value="blog-style1.htm">- Blog Style 1</option>
+                        <option value="blog-style2.htm">- Blog Style 2</option>
+                        <option value="blog-style3.htm">- Blog Style 3</option>
+                        <option value="blog-style4.htm">- Blog Style 4</option>
+                        <option value="blog-single.htm">- Blog Single</option>
+                    <option value="page-contact.htm">Contact</option>
+                </select>
+                </div>
+                </form>
+
+        </div>
+        
+      </div><!-- End Header -->
+     
+    <div class="row headline"><!-- Begin Headline -->
+    
+
+        
+        <!-- Wprowadzenie - Intro text
+        ================================================== -->
+        <div class="span12">
+        	
+            <p class="lead quote-text">Jestem wolnym strzelcem w zakresie tworzenia i rozwoju stron i  internetowych. Realizuję projekty dostosowane do komputerów osobistych, tabletów i smartfonów wraz z optymalizacją dla Google.</p>
+            <p class="lead quote-text">Stosuję regułę <a href="http://pl.wikipedia.org/wiki/KISS_%28regu%C5%82a%29"><acronym title="Keep It Simple, Stiupid">KISS<acronym></a>, - elegancja i przejrzysta forma, bez zbędnych dodatków.</p>
+
+        </div>
+    </div><!-- End Headline -->
+    
+    <div class="row gallery-row"><!-- Begin Gallery Row --> 
+      
+    	<div class="span12">
+            <h5 class="title-bg">realizacje 
+                <button class="btn btn-mini btn-inverse hidden-phone" type="button">Portfolio</button>
+            </h5>
+    	
+        <!-- Gallery Thumbnails
+        ================================================== -->
+
+            <div class="row clearfix no-margin">
+            <ul class="gallery-post-grid holder">
+
+                    <!-- Gallery Item 1 -->
+                    <li  class="span3 gallery-item" data-id="id-1" data-type="illustration">
+                        <span class="gallery-hover-4col hidden-phone hidden-tablet">
+                            <span class="gallery-icons">
+                                <a href="img/gallery/mokha-www.jpg" class="item-zoom-link lightbox" title="Sklep z kawą Mokha.pl" data-rel="prettyPhoto[portfolio]"></a>
+                                
+                            </span>
+                        </span>
+                        <a href="gallery-single.htm"><img src="img/gallery/mokha-www.jpg" alt="Gallery"></a>
+                        <span class="project-details"><a href="gallery-single.htm">Mokha</a>Sklep internetowy z kawą.</span>
+                    </li>
+
+                    <!-- Gallery Item 2 -->
+                    <li class="span3 gallery-item" data-id="id-2" data-type="illustration">
+                        <span class="gallery-hover-4col hidden-phone hidden-tablet">
+                            <span class="gallery-icons">
+                                <a href="img/gallery/amicodental-www.jpg" class="item-zoom-link lightbox" title="Strona internetowa : Gabinet stomatologiczny : Amicodental.pl" data-rel="prettyPhoto[portfolio]"></a>
+                                
+                            </span>
+                        </span>
+                        <a href="gallery-single.htm"><img src="img/gallery/amicodental-www.jpg" alt="Gallery"></a>
+                        <span class="project-details"><a href="gallery-single.htm">AmicoDental</a>Gabinet Stomatologiczny.</span>
+                    </li>
+
+                    <!-- Gallery Item 3 -->
+                    <li class="span3 gallery-item" data-id="id-2" data-type="illustration">
+                        <span class="gallery-hover-4col hidden-phone hidden-tablet">
+                            <span class="gallery-icons">
+                                <a href="img/gallery/damiko.png" class="item-zoom-link lightbox" title="Strona internetowa : Damiko.pl" data-rel="prettyPhoto[portfolio]"></a>
+                                
+                            </span>
+                        </span>
+                        <a href="gallery-single.htm"><img src="img/gallery/damiko.png" alt="Gallery"></a>
+                        <span class="project-details"><a href="gallery-single.htm">Damiko</a>Rozwiązania informatyczne</span>
+                    </li>
+
+
+                    <!-- Gallery Item 4 -->
+                    <li class="span3 gallery-item" data-id="id-4" data-type="video">
+                        <span class="gallery-hover-4col hidden-phone hidden-tablet">
+                            <span class="gallery-icons">
+                                <a href="img/gallery/szansa-www.jpg" class="item-zoom-link lightbox" title="Projekt Szansa" data-rel="prettyPhoto[portfolio]"></a>
+                                
+                            </span>
+                        </span>
+                        <a href="gallery-single.htm"><img src="img/gallery/szansa-www.jpg" alt="Projekt Szansa"></a>
+                        <span class="project-details"><a href="gallery-single.htm">Projekt Szansa</a>Strona internetowa projektu Szansa</span>
+                    </li>
+
+                    <!-- Gallery Item 5 -->
+                    <li class="span3 gallery-item" data-id="id-5" data-type="web illustration">
+                        <span class="gallery-hover-4col hidden-phone hidden-tablet">
+                            <span class="gallery-icons">
+                                <a href="img/gallery/ckp-www.jpg" class="item-zoom-link lightbox" title="Cetrum Kształcenia Proeuropejskiego - ckp.lublin.pl" data-rel="prettyPhoto[portfolio]"></a>
+                                
+                            </span>
+                        </span>
+                        <a href="gallery-single.htm"><img src="img/gallery/ckp-www.jpg" alt="Gallery"></a>
+                        <span class="project-details"><a href="gallery-single.htm">CKP</a>Szkolenia</span>
+                    </li>
+
+                    <!-- Gallery Item 6 -->
+                    <li class="span3 gallery-item" data-id="id-6" data-type="web design">
+                        <span class="gallery-hover-4col hidden-phone hidden-tablet">
+                            <span class="gallery-icons">
+                                <a href="img/gallery/dobosz-lay.jpg" class="item-zoom-link lightbox" title="Kancelaria adwokacka - adwokatdobosz.pl" data-rel="prettyPhoto"></a>
+                                
+                            </span>
+                        </span>
+                        <a href="gallery-single.htm"><img src="img/gallery/dobosz-lay.jpg" alt="Gallery"></a>
+                        <span class="project-details"><a href="gallery-single.htm">Adwokat Dominika Dobosz</a>Kancelaria adwokacka</span>
+                    </li>
+
+                    <!-- Gallery Item 7 -->
+                    <li class="span3 gallery-item" data-id="id-7" data-type="design">
+                        <span class="gallery-hover-4col hidden-phone hidden-tablet">
+                            <span class="gallery-icons">
+                                <a href="img/gallery/komornik-siedlce.pl.png" class="item-zoom-link lightbox" title="Kancelaria komornicza - komornik-siedlce.pl" data-rel="prettyPhoto"></a>
+                                
+                            </span>
+                        </span>
+                        <a href="gallery-single.htm"><img src="img/gallery/komornik-siedlce.pl.png" alt="Gallery"></a>
+                        <span class="project-details"><a href="gallery-single.htm">Michał Zarzycki</a>Kancelaria komornicza</span>
+                    </li>
+
+                    <!-- Gallery Item 8 -->
+                    <li class="span3 gallery-item" data-id="id-3" data-type="web">
+                        <span class="gallery-hover-4col hidden-phone hidden-tablet">
+                            <span class="gallery-icons">
+                                <a href="img/gallery/moto-start-www.jpg" class="item-zoom-link lightbox" title="Szkoła jazdy MotoStart.pl" data-rel="prettyPhoto"></a>
+                                
+                            </span>
+                        </span>
+                        <a href="gallery-single.htm"><img src="img/gallery/moto-start-www.jpg" alt="Gallery"></a>
+                        <span class="project-details"><a href="gallery-single.htm">Moto Start</a>Szkoła jazdy</span>
+                    </li>
+
+                    <!-- Gallery Item 9 -->
+                    <li class="span3 gallery-item" data-id="id-3" data-type="web">
+                        <span class="gallery-hover-4col hidden-phone hidden-tablet">
+                            <span class="gallery-icons">
+                                <a href="img/gallery/rema-dent.png" class="item-zoom-link lightbox" title="Laboratorium protetyczne - rema-dent.png" data-rel="prettyPhoto"></a>
+                                
+                            </span>
+                        </span>
+                        <a href="gallery-single.htm"><img src="img/gallery/rema-dent.png" alt="Gallery"></a>
+                        <span class="project-details"><a href="gallery-single.htm">Rema-dent</a>Laboratorium protetyczne</span>
+                    </li>
+                    <!-- Gallery Item 10 -->
+                    <li class="span3 gallery-item" data-id="id-3" data-type="web">
+                        <span class="gallery-hover-4col hidden-phone hidden-tablet">
+                            <span class="gallery-icons">
+                                <a href="img/gallery/koniko.png" class="item-zoom-link lightbox" title="Koniko.pl - Sklep on-line" data-rel="prettyPhoto"></a>
+                                
+                            </span>
+                        </span>
+                        <a href="gallery-single.htm"><img src="img/gallery/koniko.png" alt="Gallery"></a>
+                        <span class="project-details"><a href="gallery-single.htm">Koniko.pl</a>Sklep internetowy</span>
+                    </li>
+
+                    <!-- Gallery Item 11 -->
+                    <li class="span3 gallery-item" data-id="id-3" data-type="web">
+                        <span class="gallery-hover-4col hidden-phone hidden-tablet">
+                            <span class="gallery-icons">
+                                <a href="img/gallery/benu.png" class="item-zoom-link lightbox" title="Benu - Fundacja na Rzecz Pomocy Afryce i Krajom Potrzebującym" data-rel="prettyPhoto"></a>
+                                
+                            </span>
+                        </span>
+                        <a href="gallery-single.htm"><img src="img/gallery/benu.png" alt="Gallery"></a>
+                        <span class="project-details"><a href="gallery-single.htm">Benu</a>Fundacja</span>
+                    </li>
+
+                    <!-- Gallery Item 12 -->
+                    <li class="span3 gallery-item" data-id="id-3" data-type="web">
+                        <span class="gallery-hover-4col hidden-phone hidden-tablet">
+                            <span class="gallery-icons">
+                                <a href="img/gallery/ortomix-ortopedia.png" class="item-zoom-link lightbox" title="Ortopedia Ortomix" data-rel="prettyPhoto"></a>
+                                
+                            </span>
+                        </span>
+                        <a href="gallery-single.htm"><img src="img/gallery/ortomix-ortopedia.png" alt="Gallery"></a>
+                        <span class="project-details"><a href="gallery-single.htm">Ortomix</a>Ortopedia</span>
+                    </li>
+
+                    <!-- Gallery Item 13 -->
+                    <li class="span3 gallery-item" data-id="id-3" data-type="web">
+                        <span class="gallery-hover-4col hidden-phone hidden-tablet">
+                            <span class="gallery-icons">
+                                <a href="img/gallery/aldent.png" class="item-zoom-link lightbox" title="Aldent - Centrum Stomatologii Kompleksowej" data-rel="prettyPhoto"></a>
+                                
+                            </span>
+                        </span>
+                        <a href="gallery-single.htm"><img src="img/gallery/aldent.png" alt="Gallery"></a>
+                        <span class="project-details"><a href="gallery-single.htm">Aldent</a>Stomatologia</span>
+                    </li>
+
+                    <!-- Gallery Item 14 -->
+                    <li class="span3 gallery-item" data-id="id-3" data-type="web">
+                        <span class="gallery-hover-4col hidden-phone hidden-tablet">
+                            <span class="gallery-icons">
+                                <a href="img/gallery/pdt.png" class="item-zoom-link lightbox" title="PDT - Punkt Diagnostyczno Terapeutyczny" data-rel="prettyPhoto"></a>
+                                
+                            </span>
+                        </span>
+                        <a href="gallery-single.htm"><img src="img/gallery/pdt.png" alt="Gallery"></a>
+                        <span class="project-details"><a href="gallery-single.htm">PDT</a>Pomoc</span>
+                    </li>
+
+                    <!-- Gallery Item 15 -->
+                    <li class="span3 gallery-item" data-id="id-3" data-type="web">
+                        <span class="gallery-hover-4col hidden-phone hidden-tablet">
+                            <span class="gallery-icons">
+                                <a href="img/gallery/larus.jpg" class="item-zoom-link lightbox" title="Larus Sport" data-rel="prettyPhoto"></a>
+                                
+                            </span>
+                        </span>
+                        <a href="gallery-single.htm"><img src="img/gallery/larus.jpg" alt="Gallery"></a>
+                        <span class="project-details"><a href="gallery-single.htm">Larus Sport</a>Sport Events</span>
+                    </li>
+
+                    <!-- Gallery Item 15 -->
+                    <li class="span3 gallery-item" data-id="id-3" data-type="web">
+                        <span class="gallery-hover-4col hidden-phone hidden-tablet">
+                            <span class="gallery-icons">
+                                <a href="img/gallery/uhc.jpg" class="item-zoom-link lightbox" title="UHC" data-rel="prettyPhoto"></a>
+                                
+                            </span>
+                        </span>
+                        <a href="gallery-single.htm"><img src="img/gallery/uhc.jpg" alt="Gallery"></a>
+                        <span class="project-details"><a href="gallery-single.htm">UHC</a>IT</span>
+                    </li>
+
+
+                </ul>
+                </div>
+            </div>
+ 
+    </div><!-- End Gallery Row -->
+    
+    
+
+        
+    </div><!-- End Bottom Section -->
+    
+    </div> <!-- End Container -->
+
+    <!-- Footer Area
+        ================================================== -->
+
+	<div class="footer-container"><!-- Begin Footer -->
+    	<div class="container">
+        	<div class="row footer-row">
+                <div class="span3 footer-col">
+                    <h5>Kontakt</h5>
+                   
+                    <address>
+                        <strong>Krzysztof Kamieniecki</strong><br />
+                        t. 500 286 440<br />
+                        e. web@homoludens.pl<br />
+                    </address>
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com/krzysztof.kamieniecki" class="social-icon facebook"></a></li>
+                        <li><a href="https://twitter.com/kamienieckik" class="social-icon twitter"></a></li>
+                        <!-- 
+                        <li><a href="#" class="social-icon dribble"></a></li>
+                        <li><a href="#" class="social-icon rss"></a></li>
+                        <li><a href="#" class="social-icon forrst"></a></li> -->
+                    </ul>
+                </div>
+        
+
+
+                <!-- Accordian (Collapse)
+================================================== --> 
+
+        <div class="span3 footer-col">
+            <h5>Poznaj pojęcia</h5>
+
+            <div class="accordion" id="accordion2">
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                        Collapsible Group Item #1
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="accordion-body collapse in">
+                        <div class="accordion-inner">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                        Collapsible Group Item #2
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. 
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                        Collapsible Group Item #3
+                        </a>
+                    </div>
+                    <div id="collapseThree" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. 
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div><!-- eof accordian -->
+
+<!--                 <div class="span3 footer-col">
+                    <h5>Poznaj pojęcia</h5>
+                     <ul class="post-list">
+                        <li><a href="#">RWD Responsive Web Design</a></li>
+                        <li><a href="#">SEO - Search Engine Optimalization</a></li>
+                        <li><a href="#">CMS - Content Management System</a></li>
+                        <li><a href="#">KISS - Keep It Simple Stiupid</a></li>
+                        <li><a href="#">UI - User Interface</a></li>
+                    </ul>
+                </div> -->
+
+                <div class="span6 footer-col">
+                    <h5>Ostatnie  Tweet'y</h5>
+                        <a class="twitter-timeline"  href="https://twitter.com/kamienieckik" data-widget-id="564735717105217537">Tweety użytkownika @kamienieckik </a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                </div>
+
+
+            </div>
+
+            <div class="row"><!-- Begin Sub Footer -->
+                <div class="span12 footer-col footer-sub">
+                    <div class="row no-margin">
+                        <div class="span6"><span class="left">&copy; 2015</span></div>
+                        <div class="span6">
+                            <span class="right">
+                            <a href="#">Home</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="oferta.htm#">Oferta</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">Szkolenia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">Wycena</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">Kontakt</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- End Sub Footer -->
+
+        </div>
+    </div><!-- End Footer --> 
+    
+    <!-- Scroll to Top -->  
+    <div id="toTop" class="hidden-phone hidden-tablet">Do góry</div>
+    
+</body>
+</html>
